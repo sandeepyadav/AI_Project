@@ -2,7 +2,7 @@ openai
 python-dotenv
 langchain
 langchain_openai
-#langchain_classic
+langchain_classic
 openai
 langchain_community
 python-dotenv
