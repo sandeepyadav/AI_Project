@@ -1,0 +1,66 @@
+    ```
+    Test Case ID: TC-001
+    Description: Valid email and valid password
+    Steps:
+    1. Enter a valid email in the email field
+    2. Enter a valid password in the password field
+    3. Click on the Login button.
+    Expected Result: User is redirected to the dashboard.
+
+    Test Case ID: TC-002
+    Description: Invalid email and valid password
+    Steps:
+    1. Enter an invalid email in the email field
+    2. Enter a valid password in the password field
+    3. Click on the Login button.
+    Expected Result: An error message is displayed. 
+
+    Test Case ID: TC-003
+    Description: Valid email and invalid password
+    Steps:
+    1. Enter a valid email in the email field
+    2. Enter an invalid password in the password field
+    3. Click on the Login button.
+    Expected Result: An error message is displayed. 
+
+    Test Case ID: TC-004
+    Description: Invalid email and invalid password
+    Steps:
+    1. Enter an invalid email in the email field
+    2. Enter an invalid password in the password field
+    3. Click on the Login button.
+    Expected Result: An error message is displayed. 
+
+    Test Case ID: TC-005
+    Edge Case Description: Empty email and valid password
+    Steps:
+    1. Leave the email field empty
+    2. Enter a valid password in the password field
+    3. Click on the Login button.
+    Expected Result: An error message is displayed. 
+
+    Test Case ID: TC-006
+    Edge Case Description: Valid email and empty password
+    Steps:
+    1. Enter a valid email in the email field
+    2. Leave the password field empty
+    3. Click on the Login button.
+    Expected Result: An error message is displayed. 
+
+    Test Case ID: TC-007
+    Edge Case Description: Empty email and empty password
+    Steps:
+    1. Leave the email field empty
+    2. Leave the password field empty
+    3. Click on the Login button.
+    Expected Result: An error message is displayed.
+
+    Test Case ID: TC-008
+    Negative Case Description: Valid email and password but no internet connection
+    Steps:
+    1. Turn off internet connection
+    2. Enter a valid email in the email field
+    3. Enter a valid password in the password field
+    4. Click on the Login button.
+    Expected Result: An error message indicating no internet connection is displayed.
+    ```
